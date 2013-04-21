@@ -7,7 +7,7 @@ A mixin for the [Chocolat](http://www.chocolatapp.com) text editor for Mac that 
 2. Find `plist` in the table and click the checkbox next to it's name.
 3. There is no step 3.
 
-If you aren't able to find `plist` in the list of available mixins, click the refresh button in the lower left-hand corner of the window and try again.
+If you aren't able to find `plist` in the list of available mixins click the refresh button in the lower left-hand corner of the window and try again.
 
 As an alternative to the procedure above you can manually install by dowloading a project archive (click the `ZIP` icon at the top of this page) and extracting the contents to your `~/Library/Application Support/Chocolat/Mixins/` folder.
 
