@@ -11,6 +11,12 @@ If you aren't able to find `plist` in the list of available mixins, click the re
 
 As an alternative to the procedure above you can manually install by dowloading a project archive (click the `ZIP` icon at the top of this page) and extracting the contents to your `~/Library/Application Support/Chocolat/Mixins/` folder.
 
+##Usage
+1. Open a binary `.plist` file.
+2. Curse because you can't read it (optional).
+3. Click the `Action` menu, hover your mouse cursor over the `plist` submenu and select `Copy to clipboard as XML`
+4. Paste!
+
 ##License
 `plist.chocmixin` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
 
