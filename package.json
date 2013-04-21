@@ -1,6 +1,6 @@
 {
   "name": "plist",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Copy an XML encoded version of an open binary .plist file to the clipboard.",
   "main": "init.js",
   "repository": {

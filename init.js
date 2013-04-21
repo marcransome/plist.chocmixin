@@ -23,11 +23,11 @@ var exec = require('child_process').exec;
 Hooks.addMenuItem('Actions/plist/Copy to clipboard as XML', 'cmd+shift+x', function () {
 	if (!Document.current()) {
 		Alert.show('Doh!', 'Open a file and try again.', ['OK']);
-		return false;
+		return;
 	}
 	else if (!Document.current().path()) {
 		Alert.show('Doh!', 'Save the current file and try again.', ['OK']);
-		return false;
+		return;
 	}
 	
 	var filePath = Document.current().path();
