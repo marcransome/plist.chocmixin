@@ -1,0 +1,15 @@
+{
+  "name": "plist",
+  "version": "0.1.0",
+  "description": "Copy an XML or binary encoded version of an open .plist file to the clipboard.",
+  "main": "init.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcransome/plist.chocmixin.git"
+  },
+  "keywords": [
+    "plist"
+  ],
+  "author": "Marc Ransome <marc.ransome@fidgetbox.co.uk>",
+  "license": "MIT"
+}
