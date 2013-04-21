@@ -20,7 +20,7 @@
 
 var exec = require('child_process').exec;
 
-function noError() {
+Hooks.addMenuItem('Actions/plist/Copy to clipboard as XML', 'cmd+shift+x', function () {
 	if (!Document.current()) {
 		Alert.show('Doh!', 'Open a file and try again.', ['OK']);
 		return false;
@@ -30,20 +30,7 @@ function noError() {
 		return false;
 	}
 	
-	return true;
-}
-
-Hooks.addMenuItem('Actions/plist/Copy to clipboard as XML', 'cmd+shift+x', function () {
-	if (!noError())
-		return;
 	var filePath = Document.current().path();
 	exec('plutil -convert xml1 "' + filePath + '" -o - | pbcopy');
-});
-
-Hooks.addMenuItem('Actions/plist/Copy to clipboard as binary', 'cmd+shift+p', function () {
-	if (!noError())
-		return;
-	var filePath = Document.current().path();
-	exec('plutil -convert binary1 "' + filePath + '" -o - | pbcopy');
 });
 
