@@ -3,8 +3,8 @@
 A mixin for the [Chocolat](http://www.chocolatapp.com) text editor for Mac that will copy an XML-encoded version of a binary `.plist` file to the clipboard.
 
 ##Installation
-1. Open the `Action` menu in Chocolat and select the `Install mixins...` item.
-2. Find `plist` in the table and click the checkbox next to it's name.
+1. Open the `Action` menu in Chocolat and select `Install mixins...`.
+2. Find `plist` in the table and click the checkbox next to its name.
 3. There is no step 3.
 
 If you aren't able to find `plist` in the list of available mixins then click the refresh button in the lower left-hand corner of the window and try again.
