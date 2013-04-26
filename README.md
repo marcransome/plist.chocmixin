@@ -14,7 +14,7 @@ As an alternative to the procedure above you can manually install by dowloading 
 ##Usage
 1. Open a binary `.plist` file.
 2. Curse because you can't read it (optional).
-3. Click the `Action` menu, hover your mouse cursor over the `plist` submenu and select `Copy to clipboard as XML`
+3. Click the `Action` menu, hover your mouse cursor over the `plist` submenu and select `Copy to clipboard as XML`.
 4. Paste!
 
 ##License
