@@ -21,4 +21,4 @@ As an alternative to the procedure above you can manually install by dowloading 
 `plist.chocmixin` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
 
 ## Comments or suggestions?
-Email [marc.ransome@fidgetbox.co.uk](mailto://marc.ransome@fidgetbox.co.uk) or tweet [@marcransome](http://www.twitter.com/marcransome).
+Email [marc.ransome@fidgetbox.co.uk](mailto:marc.ransome@fidgetbox.co.uk) or tweet [@marcransome](http://www.twitter.com/marcransome).
